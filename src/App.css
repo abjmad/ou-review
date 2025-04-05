@@ -1,0 +1,68 @@
+/* App.css - Global Styles for Oakland University Guide */
+
+/* Global reset and typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B59A57; /* Gold */
+  color: #000; /* Black */
+}
+
+/* Container for the entire app */
+.app-container {
+  text-align: center;
+}
+
+/* Header styling with OU colors */
+.app-header {
+  background-color: #000; /* Black */
+  color: #FFF; /* White */
+  padding: 20px;
+  width: 100%; /* Ensure header spans full width */
+  text-align: center;
+}
+
+/* Navigation list styling */
+.nav-list {
+  list-style: none;  /* Remove bullet points */
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;     /* Center items vertically */
+  gap: 20px;
+  width: 100%; /* Make sure it spans full width */
+}
+
+/* Navigation link styling */
+.nav-list li a {
+  color: #FFF; /* White */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+  color: #B59A57; /* Optional: change to gold on hover */
+}
+
+/* Main content area */
+.main-content {
+  padding: 20px;
+}
+
+/* Global image styling for consistent appearance */
+.page-image {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+}

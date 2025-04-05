@@ -1,0 +1,35 @@
+/* src/pages/PageStyles.css */
+.page-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .page-container h2 {
+    color: #b59a57; /* Golden-brown */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .page-container p {
+    font-size: 1.2rem;
+    color: #000000; /* Black */
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .location-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .location-list li {
+    margin-bottom: 10px;
+  }
+  
